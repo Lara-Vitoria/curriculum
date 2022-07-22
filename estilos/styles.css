@@ -1,136 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:wght@100;200;400&family=Roboto+Slab:wght@300;400&display=swap');
 
 :root{
-    --corFundo: #482680;
-    --corDestaque: #E20CF2;
-    --corLetra: #fff;
-    --fonte: 'Poppins', sans-serif;
+    --branco: #ffffff;
+    --corFundo: #303F9F;
+    --corDestaque: #FF9800;
+    --corFundoBorda: #FF98024d;
+    --corLetraDivisoria: #fff;
+    --corLetra: #212121;
+    --fonteTexto: 'Open Sans', sans-serif;
+    --fonteDestaque: 'Roboto Slab', serif;
 }
 
 *{
     margin: 0;
     padding: 0;
 }
-/*=============================== body ===============================*/
-body{
+
+html, body{
     min-width: 100hv;
     min-height: 100hv;
-    font-family: var(--fonte);
+}
+
+/*=============================== body ===============================*/
+body{
+    font-family: var(--fonteTexto);
     background: var(--corFundo);
     color: var(--corLetra);
     font-weight: 400;
-    line-height: 1.8em;
+    line-height: 2em;
+    position: relative;
 }
 
 /*=============================== header ===============================*/
 header{
-    margin: 24px;
     position: relative;
+    top: 176px;
+    margin-left: 24%;
+    width: 24%;
+
+    background-color: var(--corDivisoria);
+    color: var(--corLetraDivisoria);
+    line-height: 1.5em;
 }
 
 header > h1{
     font-weight: 200;
+    font-size:50px;
+    margin-bottom: 8%;
 }
 
-header > p{
-    margin-top: 8px;
-    margin-left: 24px;
-    width: 64%;
-}
 
 header > input{
-    position: absolute;
     padding: 8px;
-    width: 8%;
-    top: 64%;
-    left: 47%;
+    margin: 8px 0px 0px 24px;
+    width: 40%;
+
     color: var(--corDestaque);
-    background-color: var(--corFundo);
-    cursor: pointer;
+    background-color: transparent;
     border-color: var(--corDestaque);
+
     border-radius: 12px;
+    cursor: pointer;
+    
 }
 
 strong{
     color: var(--corDestaque);
-    font-weight: 400;
+    font-family: var(--fonteDestaque);
 }
 
-/*=============================== main - sobre ===============================*/
+.linha-vertical {
+    position: absolute;
+    left: 16%;
+    top: 8%;
+    display: inline-block;
+    height: 108%;
+    border-left: 1px solid var(--corDestaque);
+}
+
+/*=============================== main ===============================*/
 main{
     position: relative;
     font-weight: 200;
-    width: 56%;
-    margin: 24px;
 }
 
 h3{
     color: var(--corDestaque);
-}
-
-img{
-    position: absolute;
-    width: 20%;
-    top: 7%;
-    left: 96%;
-    border-radius: 20px;
-    box-shadow: 7px 7px 13px 0px #301954;
+    margin-left: 24%;
 }
 
 hr{
     position: relative;
-    top: -8px;
-    left: 16%;
     border-color: var(--corDestaque);
+    width: 60%;
+    bottom: 8px;
+    left: 32%;
 }
 
-p{
-    margin: 16px 0px 0px 24px;
+/*=============================== main - sobre ===============================*/
+
+article.sobre{
+    position: relative;
+    top: 40vw;
+    padding: 5% 0px 5% 0px;
+    background-color: var(--branco);
 }
 
-div.sobre>ul{
+article.sobre>p{
+    position: relative;
+    top: -12vw;
+    margin-left: 24%;
+    margin-top: 1%;
+}
+
+article.sobre>ul{
+    position: relative;
+    top: -14vw;
     columns: 3;
-    margin: 4% 0px 0px 24%;
+    margin: 4%  10% 0px 28%;
 }
 
-div.experiencia{
-    margin-top: 5%;
+img{
+    position: relative;
+    width: 12%;
+    left: 82%;
+    top: 24px;
+    border-radius: 20%;
+}
+
+/*=============================== main - experiencia ===============================*/
+article.experiencia{
+    position: relative;
+    top: 40vw;
+    padding: 5% 0px 5% 0px;
+    background-color: var(--corDivisoria);
+    color: var(--corLetraDivisoria);
 }
 
 div.nome-experiencia{
     display: flex;
+    margin-left: 24%;
+    margin-top: 4%;
 }
 div.nome-experiencia>small{
-    margin-top: 5%;
-    margin-left: -12%;
+    margin-top: 2%;
+    margin-left: -10%;
 }
 
 div.desc-experiencia > ul{
-    margin: 4% 0px 0px 24%;
+    position: relative;
+    margin: 0%  10% 0px 28%;
 }
 
-div.projetos{
-    margin-top: 5%;
+/*=============================== main - projetos ===============================*/
+article.projetos{
+    position: relative;
+    top: 40vw;
+    padding: 5% 0px 5% 0px;
+    background-color: var(--branco);
 }
 
 div.card{
-    margin: 16px 0px 0px 24px;
-    width: 40%;
-    min-height: 160px;
-    border: 1px solid var(--corDestaque);
+    margin: 4% 0px 0px 24%;
+    width: 16%;
+    border: 1.5px solid var(--corDestaque);
     border-radius: 16px;
+    box-shadow: 7px 7px 13px  var(--corFundoBorda);
+    box-sizing: border-box;
 }
 
 div.card:hover{
-    height: 30%;
+    transform: translate(3px, 3px);
+    box-shadow: 11px 11px 20px  var(--corFundoBorda);
+    transition: transform .7s;
 }
 
 div.texto{
-    padding: 0px 2% 2% 0px;
-}
-
-div.texto h4{
-    margin-left: 24px;
+    padding: 4%;
 }
 
 .material-symbols-outlined{
@@ -141,6 +188,21 @@ div.texto h4{
 a{
     text-decoration: none;
 }
+
+/*=============================== main - menu ===============================*/
+article.menu{
+    position:fixed;
+    top: 80%;
+    left: 6%;
+    font-family: var(--fonteDestaque);
+    color: var(--corDestaque);
+}
+
+article.menu > span > a:visited{
+    color: var(--corDestaque);
+}
+
+/*=============================== footer  ===============================*/
 
 footer{
     text-align: center;
