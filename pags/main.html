@@ -4,44 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
 
     <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../estilos/sobre.css">
+    <link rel="stylesheet" href="../estilos/experiencia.css">
+    <link rel="stylesheet" href="../estilos/projetos.css">
+    <link rel="stylesheet" href="../estilos/cabecalho.css">
+    <link rel="stylesheet" href="../estilos/responsividade.css">
+
     <link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <title>Lara</title>
 </head>
 
 <body>
-
-    <header id="home">
-        <h1>
-            Prazer, <strong>Lara</strong>!
-        </h1>
-
-        <p>
-            Sou uma <strong>Engenheira de Computação</strong> de Santo André - São Paulo.
-        </p>
-
-        <p>
-            Meus interesses envolvem desenvolvimento full-stack, IoT, artes e natureza
-        </p>
-
-        <input type="button" value="Me chame!">
-    </header>
-
-    <div class="linha-vertical"></div>
-
     <main>
         <section>
-
-            <article class="sobre" id="sobre">
-                <h3>/Sobre mim</h3>
-                <hr />
-    
-                <img src="../imgs/eu.jpg" alt="">
+            <div class="home" id="home">
+                <article class="home-text">
+                <h1>
+                    Prazer, <strong>Lara</strong>!
+                </h1>
                 <p>
+                    Sou uma <strong>Engenheira de Computação</strong> de Santo André - São Paulo.
+                </p>
+                <p>
+                    Meus interesses envolvem desenvolvimento full-stack, IoT, artes e natureza
+                </p>
+                <input type="button" value="Me chame!">
+            </article>
+            </div>
+
+            <div class="sobre" id="sobre">
+                <article class="sobre-text" id="sobre-text">
+                <h2>/Sobre mim</h2>
+                <hr />
+
+                <img src="../imgs/eu.jpg" alt="">
+                <p style="margin-top: -160px;">
                     Atualmente sou estudante do 8° semestre de Engenharia de Computação na <strong>Faculdade Engenheiro
                         Salvador
                         Arena</strong>
@@ -63,21 +67,40 @@
                     <li> Adobe XD</li>
                     <li>Java</li>
                 </ul>
+                <p style="margin-top: 4%;">Esses são alguns idiomas que tenho o conhecimento</p>
+                <ul style="columns: 1;padding: 8px;" class="idiomaLista">
+                    <li>
+                        Inglês <div class="idioma ingles">
+                            <div class="inglePreenchimento"></div>
+                        </div>
+                    </li>
+                    <li>
+                        Francês <div class="idioma frances">
+                            <div class="francesPreenchimento"></div>
+                        </div>
+                    </li>
+                    <li>
+                        Libras <div class="idioma libras">
+                            <div class="librasPreenchimento"></div>
+                        </div>
+                    </li>
+                </ul>
             </article>
+            </div>
+            
 
-            <article class="experiencia" id="experiencia">
-                <h3>/Experiência</h3>
+            <div class="experiencia" id="experiencia">
+                <article class="experiencia-text" id="experiencia-text">
+                <h2>/Experiência</h2>
                 <hr />
-    
+
                 <div class="nome-experiencia">
                     <p>
                         Itaú Unibanco
                     </p>
-    
                     <small>
                         Jul/2021 - Atualmente
                     </small>
-    
                     <div class="desc-experiencia">
                         <ul>
                             <li>
@@ -93,56 +116,112 @@
                     </div>
                 </div>
             </article>
-
-    
-            <article class="projetos" id="projetos">
-                <h3>/Projetos</h3>
+            </div>
+           
+            <div class="projetos" id="projetos">
+                <article class="projetos-text" id="projetos-text">
+                <h2>/Projetos</h2>
                 <hr />
-    
-                <div class="card">
-                    <div class="icons">
-                        <span class="material-symbols-outlined">
-                            folder
-                        </span>
-    
-                        <a href="" target="_blank">
+
+                <div class="card-group">
+                    <div class="card">
+                        <div class="icons">
                             <span class="material-symbols-outlined">
-                                play_circle
+                                folder
                             </span>
-                        </a>
-    
-                        <a href="https://github.com/Lara-Vitoria/dogmaPrototipo" target="_blank">
-                        <span class="material-symbols-outlined">
-                            code
-                        </span>
-                        </a>
+
+                            <a href="" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </a>
+
+                            <a href="https://github.com/Lara-Vitoria/dogmaPrototipo" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    code
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <h4>Dogma</h4>
+                            <p>Uma coleira inteligente, que monitora a saude e segurança do seu pet</p>
+                        </div>
                     </div>
-    
-                    <div class="texto">
-                        <h4>Dogma</h4>
-                        <p>Uma coleira inteligente, que monitora a saude e segurança do seu pet</p>
+
+                    <div class="card">
+                        <div class="icons">
+                            <span class="material-symbols-outlined">
+                                folder
+                            </span>
+
+                            <a href="" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    code
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <h4>Em breve</h4>
+                            <p>Em breve um projeto!</p>
+                        </div>
                     </div>
+
+                    <div class="card">
+                        <div class="icons">
+                            <span class="material-symbols-outlined">
+                                folder
+                            </span>
+
+                            <a href="" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    code
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <h4>Em breve</h4>
+                            <p>Em breve um projeto</p>
+                        </div>
+                    </div>
+
                 </div>
+
             </article>
-
+            </div>
         </section>
-        
-        <section>
 
+        <div class="linha-vertical"></div>
+
+        <section>
             <article class="menu">
                 <span><a href="#home">/home</a> <br></span>
                 <span><a href="#sobre">/sobre</a> <br></span>
                 <span><a href="#experiencia">/experiência</a> <br></span>
                 <span><a href="#projetos">/projetos</a> <br></span>
             </article>
-
         </section>
     </main>
 
-    <!--footer>
-        <small>Construido por Lara Vitoria</small> <br>
-        <small>Todos os direitos reservados &copy;</small>
-    </footer-->
+    <div id="rodape">
+        <footer>
+            <small>Construido por Lara Vitoria</small> <br>
+            <small>Todos os direitos reservados &copy;</small>
+        </footer>
+    </div>
 </body>
-
 </html>

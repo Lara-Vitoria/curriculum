@@ -1,0 +1,81 @@
+div#sobre{
+    height: 50vw;
+    display: block;
+
+    background: var(--branco);
+
+}
+
+.sobre-text{
+    display: inline-block;
+    width: 100%;
+}
+
+.sobre-text p{
+    margin-left: 24%;
+    width: 50%;
+    line-height: 2.5rem;
+}
+
+.sobre-text>ul{
+    columns: 3;
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 24%;
+    list-style-type: none;
+}
+
+img{
+    position: relative;
+    left: 80%;
+    top: 48px;
+    width: 12%;
+    border-radius: 20%;
+}
+
+div.idioma{
+    border: 1px solid var(--corLetra);
+    display: inline-block;
+    width: 70%;
+    margin-left: 4%;
+    border-radius: 10px;
+
+}
+
+ul.idiomaLista > li{
+    margin-bottom: 4%;
+}
+
+.idioma.frances{
+    margin-left: 3%;
+}
+
+.idiomaLista{
+    list-style-type:none;
+}
+
+.idiomaLista > li{
+    margin-bottom: 2%;
+}
+
+.inglePreenchimento{
+    border-radius: 10px;
+    padding: 8px;
+    width: 80%;
+    background-color: var(--corDestaque);
+}
+
+.francesPreenchimento{
+    border-radius: 10px;
+    padding: 8px;
+    width: 40%;
+    background-color: var(--corDestaque);
+}
+
+.librasPreenchimento{
+    border-radius: 10px;
+    padding: 8px;
+    width: 20%;
+    background-color: var(--corDestaque);
+}

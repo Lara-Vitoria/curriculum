@@ -1,0 +1,43 @@
+div#experiencia{
+    display: block;
+    height: 50vw;
+    background: var(--corFundo);
+    color: var(--corLetraDivisoria);
+    padding-top: 0.5%;
+}
+
+.experiencia-text > h2{
+    margin-left: 81%;
+    position: relative;
+}
+
+.experiencia-text > hr{
+    position: relative;
+    left: 24%;
+    width: 55%;
+}
+
+div.nome-experiencia{
+    display: flex;
+    margin-left: 24%;
+    margin-top: 4%;
+}
+
+div.nome-experiencia>p{
+    font-size: 20px;
+}
+div.nome-experiencia>small{
+    font-size: smaller;
+    margin-top: 2%;
+    margin-left: -10%;
+}
+
+div.desc-experiencia > ul{
+    position: relative;
+    margin: 0%  10% 0px 28%;
+}
+
+div.desc-experiencia > ul > li{
+    margin-bottom: 8%;
+    font-size: large;
+}

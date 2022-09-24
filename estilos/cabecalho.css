@@ -1,0 +1,39 @@
+div#home{
+    display: block;
+    height: 50vw;
+    background: var(--corFundo);
+    color: var(--corLetraDivisoria);
+}
+
+.home-text{
+    position: relative;
+    top: 288px;
+    margin-right: 8%;
+    text-align: right;
+    line-height: 3rem;
+}
+
+.home-text > h1{
+    position: relative;
+    font-weight: 200;
+    font-size:50px;
+    margin-bottom: 2%;
+}
+
+.home-text > input{
+    padding: 8px;
+    width: 24%;
+
+    color: var(--corDestaque);
+    background-color: transparent;
+    border-color: var(--corDestaque);
+
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+
+strong{
+    color: var(--corDestaque);
+    font-family: var(--fonteDestaque);
+}

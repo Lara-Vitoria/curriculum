@@ -1,0 +1,295 @@
+@media screen and (min-width:992px) and (max-width: 1024px) {
+    header>h1 {
+        font-size: 36px;
+    }
+
+    .linha-vertical {
+        height: 124%;
+    }
+
+    header>input {
+        padding: 8px;
+        margin: 8px 0px 0px 2px;
+        width: 40%;
+    }
+
+    article.menu {
+        top: 70%;
+        left: 2%;
+    }
+
+    hr {
+        width: 54%;
+        left: 40%;
+    }
+
+    article.sobre>p {
+        width: 56%;
+        margin-left: 24%;
+        margin-top: 1%;
+    }
+
+    div.nome-experiencia {
+        display: flex;
+        margin-left: 24%;
+        width: 100%;
+    }
+
+    div.nome-experiencia>small {
+        margin-top: 3%;
+        margin-left: -11%;
+    }
+
+    div.card {
+        width: 24%;
+    }
+
+    footer{
+        bottom: -28%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+    header {
+        width: 50%;
+    }
+
+    header>h1 {
+        font-size: 24px;
+    }
+
+    header>input {
+        margin: 8px 0px 0px 2px;
+    }
+
+    .linha-vertical {
+        top: -2%;
+        height: 120%;
+    }
+
+
+    article.menu {
+        top: 55%;
+        left: 2%;
+    }
+
+    hr {
+        width: 54%;
+        left: 40%;
+    }
+
+    article.sobre>p {
+        width: 56%;
+        margin-top: 1%;
+    }
+
+    div.nome-experiencia {
+        display: block;
+        text-align: center;
+        margin-left: 24%;
+        width: 60%;
+    }
+
+    div.nome-experiencia>small {
+        margin-left: 2%;
+        margin-bottom: 10%;
+    }
+
+    div.desc-experiencia>ul {
+        width: 100%;
+        margin-left: 8%;
+    }
+
+    div.desc-experiencia>ul>li {
+        padding: 2%;
+    }
+
+    div.card {
+        width: 25%;
+    }
+
+    footer{
+        bottom: -23%;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width: 767px) {
+
+    header {
+        margin-left: 12%;
+        top: 100px;
+        width: 60%;
+        font-size: 16px;
+    }
+
+    header>h1 {
+        font-size: 24px;
+    }
+
+    header>input {
+        margin: 16px 0px 0px 2px;
+    }
+
+    article.menu {
+        display: none;
+    }
+
+    .linha-vertical {
+        display: none;
+    }
+
+    hr {
+        width: 48%;
+        left: 44%;
+    }
+
+    h3 {
+        margin-left: 12%;
+    }
+
+    article.sobre>p {
+        top: -18vw;
+        width: 60%;
+        margin-left: 12%;
+    }
+
+    img {
+        width: 18%;
+        left: 75%;
+        top: 18px;
+    }
+
+    article.sobre>ul {
+        top: -18vw;
+        width: 80%;
+        margin-left: 16%;
+    }
+
+    div.nome-experiencia {
+        display: block;
+        text-align: center;
+        margin-left: 8%;
+        width: 80%;
+    }
+
+    div.nome-experiencia>small {
+        margin-left: 2%;
+        margin-bottom: 10%;
+    }
+
+    div.desc-experiencia>ul {
+        width: 100%;
+        margin-left: 8%;
+    }
+
+    div.desc-experiencia>ul>li {
+        padding: 2%;
+    }
+
+    div.card:nth-child(odd) {
+        margin-left: 8%;
+    }
+
+    div.card {
+        margin-left: 5%;
+        width: 40%;
+    }
+
+    footer{
+        bottom: -20%;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+
+    header {
+        margin-left: 12%;
+        top: 100px;
+        width: 70%;
+        font-size: 16px;
+    }
+
+    header>h1 {
+        font-size: 24px;
+    }
+
+    header>input {
+        margin: 16px 0px 0px 2px;
+    }
+
+    article.menu {
+        display: none;
+    }
+
+    .linha-vertical {
+        display: none;
+    }
+
+    hr {
+        width: 40%;
+        left: 50%;
+    }
+
+    h3 {
+        margin-left: 12%;
+    }
+
+    article.sobre>p {
+        top: 4vw;
+        width: 60%;
+        margin-left: 12%;
+    }
+
+    img {
+        display: none;
+    }
+
+    article.sobre>ul {
+        top: 9vw;
+        columns: 2;
+        width: 100%;
+        text-align: justify;
+        padding-bottom: 8%;
+        margin-left: 16%;
+    }
+
+    div.nome-experiencia {
+        display: block;
+        text-align: center;
+        margin-left: 8%;
+        width: 80%;
+    }
+
+    div.nome-experiencia>small {
+        margin-bottom: 10%;
+        margin-left: 1%;
+    }
+
+    div.desc-experiencia>ul {
+        width: 100%;
+        margin-left: 8%;
+    }
+
+    div.desc-experiencia>ul>li {
+        padding: 2%;
+    }
+
+    div.card:nth-child(odd){
+        margin-left: 10%;
+    }
+
+    div.card{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    footer{
+        bottom: -14%;
+        margin-left: 30%;
+    }
+
+}

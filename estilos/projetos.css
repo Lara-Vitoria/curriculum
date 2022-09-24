@@ -1,0 +1,46 @@
+div#projetos{
+    display: block;
+    height: 50vw;
+    background-color: var(--branco);
+}
+
+div.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.card{
+    margin: 4% 0px 0px 4%;
+    width: 20%;
+    
+    border: 1.5px solid var(--corDestaque);
+    border-radius: 16px;
+    box-shadow: 7px 7px 13px  var(--corFundoBorda);
+    box-sizing: border-box;
+}
+
+div.card:first-child{
+    margin-left: 24%;
+}
+
+div.card:hover{
+    transform: translate(3px, 3px);
+    box-shadow: 11px 11px 20px  var(--corFundoBorda);
+    transition: transform .7s;
+}
+
+div.texto{
+    padding: 4%;
+    height: 20%;
+}
+
+.material-symbols-outlined{
+    color: var(--corDestaque);
+    margin: 4% 0px 0px 5%;
+}
+
+a{
+    text-decoration: none;
+}
