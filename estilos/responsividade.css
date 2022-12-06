@@ -1,32 +1,32 @@
-@media screen and (min-width:992px) and (max-width: 1024px) {
-    header>h1 {
-        font-size: 36px;
+@media screen and (min-width:1023px) and (max-width: 1240px) {
+
+    /*=========== Cabeçalho ===========*/
+    div#home {
+        height: 54vw;
+    }
+
+    .home-text {
+        top: 200px;
     }
 
     .linha-vertical {
-        height: 124%;
+        top: 200px;
+        height: 94%;
     }
 
-    header>input {
-        padding: 8px;
-        margin: 8px 0px 0px 2px;
-        width: 40%;
+    /*=========== Sobre ===========*/
+    div#sobre {
+        height: 56vw;
     }
 
-    article.menu {
-        top: 70%;
-        left: 2%;
+    /*=========== Experiencia ===========*/
+    div#experiencia {
+        height: 56vw;
     }
 
     hr {
         width: 54%;
         left: 40%;
-    }
-
-    article.sobre>p {
-        width: 56%;
-        margin-left: 24%;
-        margin-top: 1%;
     }
 
     div.nome-experiencia {
@@ -37,14 +37,97 @@
 
     div.nome-experiencia>small {
         margin-top: 3%;
-        margin-left: -11%;
+        margin-left: -10%;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width: 1024px) {
+
+    /*=========== Cabeçalho ===========*/
+    div#home {
+        height: 65vw;
+    }
+
+    .home-text {
+        top: 180px;
+    }
+
+    .linha-vertical {
+        top: 180px;
+        height: 94%;
+    }
+
+    article.menu {
+        top: 7.5%;
+        left: 4%;
+    }
+
+    hr {
+        width: 52%;
+        left: 40%;
+    }
+
+    /*=========== Sobre ===========*/
+
+    div#sobre {
+        height: 72vw;
+    }
+
+    article.sobre>p {
+        margin-top: -90px;
+        margin-left: 24%;
+        top: 100px;
+    }
+
+    /*=========== Experiencia ===========*/
+    div#experiencia {
+        height: 72vw;
+    }
+
+    .experiencia-text>h2 {
+        margin-left: 76%;
+    }
+
+    .experiencia-text>hr {
+        left: 24%;
+        width: 48%;
+    }
+
+    div.nome-experiencia {
+        width: 74%;
+    }
+
+    div.nome-experiencia>p {
+        width: 26%;
+    }
+
+    div.nome-experiencia>small {
+        margin-top: 5%;
+        margin-left: -20%;
+        width: 22%;
+    }
+
+    /*=========== Projetos ===========*/
+
+    div#projetos {
+        height: 72vw;
     }
 
     div.card {
-        width: 24%;
+        width: 30%;
+        margin-left: 8%;
     }
 
-    footer{
+    div.card:nth-child(odd) {
+        margin-left: 24%;
+    }
+
+    div.card:nth-child(4) {
+        margin-left: 8%;
+    }
+
+    footer {
         bottom: -28%;
     }
 
@@ -52,85 +135,114 @@
 
 @media screen and (min-width:768px) and (max-width: 991px) {
 
-    header {
-        width: 50%;
+    /*=========== Cabeçalho ===========*/
+    div#home {
+        height: 88vw;
     }
 
-    header>h1 {
-        font-size: 24px;
-    }
-
-    header>input {
-        margin: 8px 0px 0px 2px;
+    .home-text {
+        top: 150px;
+        width: 66%;
+        text-align: right;
+        margin-left: 24%;
     }
 
     .linha-vertical {
-        top: -2%;
-        height: 120%;
+        display: none;
     }
-
 
     article.menu {
-        top: 55%;
-        left: 2%;
+        display: none;
     }
 
-    hr {
-        width: 54%;
-        left: 40%;
+    /*=========== Sobre ===========*/
+    div#sobre {
+        height: 100vw;
     }
 
-    article.sobre>p {
-        width: 56%;
-        margin-top: 1%;
-    }
-
-    div.nome-experiencia {
-        display: block;
-        text-align: center;
-        margin-left: 24%;
+    .sobre-text p,
+    h2 {
+        margin-left: 8%;
         width: 60%;
     }
 
+    .sobre-text-p {
+        margin-top: -90px;
+    }
+
+    .sobre-text>ul {
+        width: 60%;
+        margin-left: 14%;
+    }
+
+    img {
+        width: 16%;
+        left: 78%;
+        border-radius: 20%;
+    }
+
+    /*=========== Experiencia ===========*/
+    div#experiencia {
+        height: 100vw;
+    }
+
+    .experiencia-text>h2 {
+        margin-left: 72%;
+    }
+
+    .experiencia-text>hr {
+        left: 8%;
+        width: 60%;
+    }
+
+    div.nome-experiencia {
+        margin-left: 8%;
+        width: 90%;
+    }
+
+    div.nome-experiencia>p {
+        width: 26%;
+    }
+
     div.nome-experiencia>small {
-        margin-left: 2%;
-        margin-bottom: 10%;
+        margin-top: 5%;
+        margin-left: -18%;
+        width: 27%;
     }
 
     div.desc-experiencia>ul {
-        width: 100%;
-        margin-left: 8%;
+        margin: 0% 10% 0px 18%;
     }
 
-    div.desc-experiencia>ul>li {
-        padding: 2%;
+    /*=========== Projetos ===========*/
+
+    div#projetos {
+        height: 100vw;
     }
 
     div.card {
-        width: 25%;
+        width: 38%;
+        margin-left: 8%;
     }
 
-    footer{
-        bottom: -23%;
+    div.card:nth-child(odd) {
+        margin-left: 8%;
     }
 
+    div.card:nth-child(4) {
+        margin-left: 8%;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width: 767px) {
 
-    header {
-        margin-left: 12%;
-        top: 100px;
-        width: 60%;
-        font-size: 16px;
+    /*=========== Cabeçalho ===========*/
+    div#home {
+        height: 90vw;
     }
 
-    header>h1 {
-        font-size: 24px;
-    }
-
-    header>input {
-        margin: 16px 0px 0px 2px;
+    .home-text {
+        top: 200px;
     }
 
     article.menu {
@@ -142,55 +254,87 @@
     }
 
     hr {
-        width: 48%;
-        left: 44%;
+        width: 56%;
+        left: 36%;
     }
 
-    h3 {
-        margin-left: 12%;
+    /*=========== Sobre ===========*/
+
+    div#sobre {
+        height: 100vw;
     }
 
-    article.sobre>p {
-        top: -18vw;
+    .sobre-text p,
+    h2 {
+        margin-left: 8%;
         width: 60%;
-        margin-left: 12%;
+    }
+
+    .sobre-text-p {
+        margin-top: -135px;
     }
 
     img {
+        margin-top: 4%;
         width: 18%;
         left: 75%;
         top: 18px;
     }
 
-    article.sobre>ul {
+    .sobre-text>ul {
         top: -18vw;
         width: 80%;
-        margin-left: 16%;
+        margin-left: 14%;
+    }
+
+    article.sobre>p {
+        top: -18vw;
+        width: 60%;
+        margin-left: 12%;
+    }
+
+    /*=========== Experiencia ===========*/
+
+    div#experiencia {
+        height: 100vw;
+    }
+
+    .experiencia-text>h2 {
+        margin-left: 70%;
+    }
+
+    .experiencia-text>hr {
+        left: 8%;
+        width: 56%;
     }
 
     div.nome-experiencia {
         display: block;
         text-align: center;
+        justify-content: center;
         margin-left: 8%;
         width: 80%;
     }
 
-    div.nome-experiencia>small {
+    .nome-experiencia>p {
         margin-left: 2%;
-        margin-bottom: 10%;
+        margin-top: 6%;
+    }
+
+    div.nome-experiencia>small {
+        margin-left: 1%;
     }
 
     div.desc-experiencia>ul {
         width: 100%;
         margin-left: 8%;
+        margin-top: 8%;
     }
 
-    div.desc-experiencia>ul>li {
-        padding: 2%;
-    }
+    /*=========== Projetos ===========*/
 
-    div.card:nth-child(odd) {
-        margin-left: 8%;
+    div#projetos {
+        height: 100vw;
     }
 
     div.card {
@@ -198,27 +342,43 @@
         width: 40%;
     }
 
-    footer{
-        bottom: -20%;
+    div.card:nth-child(odd) {
+        margin-left: 8%;
     }
+
+    div.card:nth-child(4) {
+        margin-left: 5%;
+    }
+
 
 }
 
 @media screen and (min-width:320px) and (max-width: 480px) {
 
-    header {
-        margin-left: 12%;
-        top: 100px;
-        width: 70%;
-        font-size: 16px;
+    /*=========== Cabeçalho ===========*/
+    div#home {
+        height: 160vw;
+        width: 100%;
+
     }
 
-    header>h1 {
-        font-size: 24px;
+    .home-text {
+        top: 180px;
+        text-align: center;
+        margin-left: 8%;
     }
 
-    header>input {
-        margin: 16px 0px 0px 2px;
+    .home-tex>h1{
+        padding-bottom: 18%;
+    }
+
+    .home-tex>p{
+        padding-bottom: 18%;
+    }
+
+    .home-text>input{
+        padding-right: 40%;
+        padding-left: 20%;
     }
 
     article.menu {
@@ -230,66 +390,98 @@
     }
 
     hr {
-        width: 40%;
-        left: 50%;
+        width: 38%;
+        left: 54%;
     }
 
-    h3 {
-        margin-left: 12%;
+    /*=========== Sobre ===========*/
+
+    div#sobre {
+        height: 230vw;
     }
 
-    article.sobre>p {
-        top: 4vw;
-        width: 60%;
-        margin-left: 12%;
+    .sobre-text p,h2 {
+        margin-left: 8%;
+    }
+
+    .sobre-text p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .sobre-text-p {
+        margin-top: 8%;
     }
 
     img {
         display: none;
     }
 
-    article.sobre>ul {
-        top: 9vw;
+    article.sobre-text>ul {
         columns: 2;
-        width: 100%;
-        text-align: justify;
-        padding-bottom: 8%;
-        margin-left: 16%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    article.sobre-text>ul>li {
+        margin-bottom: 12%;
+    }
+
+    /*=========== Experiencia ===========*/
+
+    div#experiencia {
+        height: 150vw;
+    }
+
+    .experiencia-text>h2 {
+        margin-left: 52%;
+    }
+
+    .experiencia-text>hr {
+        left: 8%;
+        width: 40%;
     }
 
     div.nome-experiencia {
         display: block;
         text-align: center;
+        justify-content: center;
         margin-left: 8%;
         width: 80%;
     }
 
+    .nome-experiencia>p {
+        margin-left: 2%;
+        margin-top: 6%;
+    }
+
     div.nome-experiencia>small {
-        margin-bottom: 10%;
         margin-left: 1%;
     }
 
     div.desc-experiencia>ul {
         width: 100%;
         margin-left: 8%;
+        margin-top: 8%;
     }
 
-    div.desc-experiencia>ul>li {
-        padding: 2%;
+    /*=========== Projetos ===========*/
+
+    div#projetos {
+        height: 290vw;
     }
 
-    div.card:nth-child(odd){
+    div.card:nth-child(odd) {
         margin-left: 10%;
     }
 
-    div.card{
+    div.card:nth-child(4) {
+        margin-left: 10%;
+    }
+
+    div.card {
         margin-left: 10%;
         width: 80%;
-    }
-
-    footer{
-        bottom: -14%;
-        margin-left: 30%;
     }
 
 }

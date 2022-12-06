@@ -19,7 +19,7 @@ div#experiencia{
 
 div.nome-experiencia{
     display: flex;
-    margin-left: 24%;
+    margin-left: 25%;
     margin-top: 4%;
 }
 
@@ -29,7 +29,7 @@ div.nome-experiencia>p{
 div.nome-experiencia>small{
     font-size: smaller;
     margin-top: 2%;
-    margin-left: -10%;
+    margin-left: -11%;
 }
 
 div.desc-experiencia > ul{

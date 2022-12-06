@@ -17,6 +17,10 @@ div#sobre{
     line-height: 2.5rem;
 }
 
+.sobre-text-p{
+    margin-top: -150px; 
+}
+
 .sobre-text>ul{
     columns: 3;
     width: 50%;
